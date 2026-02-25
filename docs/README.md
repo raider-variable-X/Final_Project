@@ -6,7 +6,7 @@ Turnback Tape Audio is a fictional service designed for lo-fi music producers an
 This project demonstrates the culmination of project management principles from *Project Management for the Unofficial Project Manager* and the importance of having the "hybrid generalist" mindset from *Range*.
 
 ## Live Website
-View the live prototype of my project here: (https://raider-variable-x.github.io/Final_Project/)
+[View the live prototype of my project here](https://raider-variable-x.github.io/Final_Project/)
 
 ## Project Documentation
 All planning and reflective documentation can be found in the `docs/` folder:
