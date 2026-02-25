@@ -1,0 +1,136 @@
+/* My Theme:
+
+   Gold: #D4B86A (Packaging/Accents)
+   Black: #000000 (Background/Text)
+   Grey: #808080 (Containers/Secondary Text)
+   Red: #D22B2B (Call to Action/Buttons)
+   
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    color: #D4B86A; 
+    line-height: 1.6;
+}
+
+header {
+    background-color: #D4B86A; 
+    padding: 1rem 0;
+}
+
+/* ---------- Navbar styling ------------ */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #D22B2B; 
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1a1a1a; 
+    border: 2px solid #808080; 
+    border-radius: 8px;
+}
+
+h1, h2 {
+    font-family: "Orbitron", sans-serif;
+    color: #D4B86A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #cccccc; 
+}
+
+/* -------------- Form Styling -------------- */
+#signup {
+    background-color: #808080; 
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #000000; 
+}
+
+#signup h2 {
+    font-family: "Orbitron", sans-serif;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="email"] {
+    padding: 12px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #D22B2B;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b02424;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+/* ----------- About Page Specifics ---------- */
+#process ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#process li {
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #D22B2B;
+}
+
+#process strong {
+    color: #D4B86A;
+}
